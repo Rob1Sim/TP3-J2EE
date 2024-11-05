@@ -5,7 +5,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 
-@WebServlet(name = "Servlet_Login", value = "/Servlet_Login")
+@WebServlet("/Servlet_Login")
 public class Servlet_Login extends HttpServlet {
     // Identifiants en dur
     private static final String CORRECT_LOGIN = "admin";
@@ -24,7 +24,7 @@ public class Servlet_Login extends HttpServlet {
         }
 
         // Redirection vers la page resultat.jsp
-        request.getRequestDispatcher("/WEB-INF/resultat.jsp").forward(request, response);
+        request.getRequestDispatcher("/resultat.jsp").forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
