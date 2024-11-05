@@ -72,21 +72,21 @@ Ici le code pour le servlet:
 
 *MatriceServlet.java*
 
-
-L'initialisation du servlet. La matrice est crée.
+La méthode `init` initialise une matrice 10x10 (`matrice`) remplie de zéros lorsque le servlet démarre, la préparant pour des modifications et des consultations ultérieures.
 
 ![image2](images/EX3-SERVLET-GET.jpg)
 
 *MatriceServlet.java*
 
-La methode 'get' avec les commentaires explicatifs.
+La méthode `doGet` gère les requêtes GET en affichant soit la matrice entière sous forme de table HTML, soit, si les paramètres `x` et `y` sont fournis, la valeur à des coordonnées spécifiées. Elle inclut une gestion des erreurs pour les indices hors limites et les paramètres invalides.
+
 
 ![image2](images/EX3-SERVLET-POST.jpg)
 
 *MatriceServlet.java*
 
 
-La methode 'post' avec les commentaires explicatifs.
+La méthode `doPost` gère les requêtes POST pour modifier les valeurs de la matrice. Si aucun paramètre n'est fourni, elle réinitialise la matrice à zéro ; sinon, elle met à jour la cellule spécifiée avec une nouvelle valeur si les coordonnées et la valeur sont valides.
 
 Resultats:
 
