@@ -9,15 +9,15 @@ import jakarta.servlet.http.*;
 public class Servlet_Login extends HttpServlet {
     // Identifiants en dur
     private static final String login1 = "admin";
-    private static final String password1 = "admin";
+    private static final String pwd1 = "admin";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String login = request.getParameter("login");
         String password = request.getParameter("password");
 
-        if (login1.equals(login) && password1.equals(password)) {
+        if (login1.equals(login) && pwd1.equals(password)) {
             // Identifiants corrects
-            request.setAttribute("message", "Bienvenue  sur la première JSP page.");
+            request.setAttribute("message", "Welcome to your First JSP page.");
         } else {
             // Identifiants incorrects
             request.setAttribute("message", "Identification Failure.");
