@@ -23,3 +23,9 @@ Cette dernière page écrit le message envoyé via la méthode doGet en fonction
 
 ![image5](images/img_4.png)
 ![image6](images/img_4.png)
+## **Exercice 1**
+
+## **Exercice 2**
+
+## **Exercice 3**
+Code avec explication
