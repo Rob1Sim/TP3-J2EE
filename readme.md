@@ -45,13 +45,21 @@ Ici le code pour le servlet:
 
 ![image2](images/EX3-SERVLET-INIT.jpg)
 
+*MatriceServlet.java*
+
+
 L'initialisation du servlet. La matrice est crée.
 
 ![image2](images/EX3-SERVLET-GET.jpg)
 
+*MatriceServlet.java*
+
 La methode 'get' avec les commentaires explicatifs.
 
 ![image2](images/EX3-SERVLET-POST.jpg)
+
+*MatriceServlet.java*
+
 
 La methode 'post' avec les commentaires explicatifs.
 
