@@ -10,6 +10,7 @@
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 <a href="Formulaire.jsp">Hello Servlet</a>
+<a href="matrice.jsp">EX3</a>
 
 </body>
 </html>

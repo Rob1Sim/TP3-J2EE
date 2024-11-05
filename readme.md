@@ -27,3 +27,29 @@ Avec ∆ = 0
 
 ## **Exercice 3**
 Code avec explication
+![image2](images/EX3-MATRICE-JSP.jpg)
+*matrice.jsp*
+Un simple fichier jsp qui permet de faire les requetes au servlet
+
+Resultat:
+
+
+Ici le code pour le servlet:
+![image2](images/EX3-SERVLET-INIT.jpg)
+
+L'initialisation du servlet. La matrice est crée.
+
+![image2](images/EX3-SERVLET-GET.jpg)
+
+La methode 'get' avec les commentaires explicatifs.
+
+![image2](images/EX3-SERVLET-POST.jpg)
+
+La methode 'post' avec les commentaires explicatifs.
+
+Resultats:
+
+
+
+
+
