@@ -8,16 +8,16 @@ import jakarta.servlet.http.*;
 @WebServlet("/Servlet_Login")
 public class Servlet_Login extends HttpServlet {
     // Identifiants en dur
-    private static final String CORRECT_LOGIN = "admin";
-    private static final String CORRECT_PASSWORD = "admin";
+    private static final String login1 = "admin";
+    private static final String password1 = "admin";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String login = request.getParameter("login");
         String password = request.getParameter("password");
 
-        if (CORRECT_LOGIN.equals(login) && CORRECT_PASSWORD.equals(password)) {
+        if (login1.equals(login) && password1.equals(password)) {
             // Identifiants corrects
-            request.setAttribute("message", "Welcome to your First JSP page.");
+            request.setAttribute("message", "Bienvenue  sur la première JSP page.");
         } else {
             // Identifiants incorrects
             request.setAttribute("message", "Identification Failure.");
