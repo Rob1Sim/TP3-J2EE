@@ -74,19 +74,28 @@ Ici le code pour le servlet:
 
 La méthode `init` initialise une matrice 10x10 (`matrice`) remplie de zéros lorsque le servlet démarre, la préparant pour des modifications et des consultations ultérieures.
 
-![image2](images/EX3-SERVLET-GET.jpg)
+![image2](images/EX3-SERVLET-GET.png)
 
 *MatriceServlet.java*
 
-La méthode `doGet` gère les requêtes GET en affichant soit la matrice entière sous forme de table HTML, soit, si les paramètres `x` et `y` sont fournis, la valeur à des coordonnées spécifiées. Elle inclut une gestion des erreurs pour les indices hors limites et les paramètres invalides.
+La méthode `doGet` gère les requêtes GET en transmettant la matrice entière ou une valeur de cellule spécifique à une page JSP (`affichageMatrice.jsp`). Si les paramètres `x` et `y` sont fournis, elle affiche la valeur à la position demandée avec une gestion des erreurs pour les coordonnées hors limites et les paramètres non valides.
 
 
-![image2](images/EX3-SERVLET-POST.jpg)
+![image2](images/EX3-SERVLET-POST.png)
 
 *MatriceServlet.java*
 
 
-La méthode `doPost` gère les requêtes POST pour modifier les valeurs de la matrice. Si aucun paramètre n'est fourni, elle réinitialise la matrice à zéro ; sinon, elle met à jour la cellule spécifiée avec une nouvelle valeur si les coordonnées et la valeur sont valides.
+La méthode `doPost` gère les requêtes POST pour modifier les valeurs de la matrice. Si aucun paramètre n'est fourni, elle réinitialise toute la matrice à zéro. Sinon, elle met à jour la cellule spécifiée si les coordonnées et la valeur sont valides. Un message de confirmation ou d'erreur est transmis à la page JSP pour affichage.
+
+![image2](images/EX3-JSP.png)
+
+*affichageMatrice.jsp*
+
+La page JSP `affichageMatrice.jsp` affiche la matrice entière sous forme de tableau si elle est fournie, ou bien la valeur d'une cellule spécifique et des messages d'information ou d'erreur provenant des opérations effectuées dans `doGet` et `doPost` de `MatriceServlet`.
+
+
+
 
 Resultats:
 
