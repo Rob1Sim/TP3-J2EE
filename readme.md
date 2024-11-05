@@ -33,6 +33,9 @@ Un simple fichier jsp qui permet de faire les requetes au servlet
 
 Resultat:
 
+![image2](images/EX3-RESULT-JSP.png)
+
+
 
 Ici le code pour le servlet:
 ![image2](images/EX3-SERVLET-INIT.jpg)
@@ -49,7 +52,12 @@ La methode 'post' avec les commentaires explicatifs.
 
 Resultats:
 
+![image2](images/EX3-RESULT-UPDATE-CELL.png)
 
+Mise a jour d'une cellule. 
 
+![image2](images/EX3-RESULT-SHOW-ALL.png)
+
+Affichage de la matrice.
 
 
