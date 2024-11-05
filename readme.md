@@ -52,7 +52,7 @@ Avec ∆ = 0
 
 ## **Exercice 3**
 
-Code avec explication
+### ***Code***
 
 ![image2](images/EX3-MATRICE-JSP.jpg)
 
@@ -97,7 +97,7 @@ La page JSP `affichageMatrice.jsp` affiche la matrice entière sous forme de tab
 
 
 
-Resultats:
+### *** Resultat ***
 
 ![image2](images/EX3-RESULT-UPDATE-CELL.png)
 
@@ -106,5 +106,10 @@ Mise a jour d'une cellule.
 ![image2](images/EX3-RESULT-SHOW-ALL.png)
 
 Affichage de la matrice.
+
+![image2](images/EX3-RESULT-ERROR.png)
+
+Affichage d'une erreur.
+
 
 
