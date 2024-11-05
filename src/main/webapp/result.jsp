@@ -30,8 +30,8 @@
         double a2 =  ((-b - Math.sqrt(result)) /(2*a));
 
     %>
-    <h1 style="color:blue">Racine 1 : <%=a1%>></h1>
-    <h1 style="color:blue">Racine 2 : <%=a2%>></h1>
+    <h1 style="color:blue">Racine 1 : <%=a1%></h1>
+    <h1 style="color:blue">Racine 2 : <%=a2%></h1>
 
     <%
         }
